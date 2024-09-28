@@ -1,0 +1,18 @@
+Resumen de URLs:
+http://localhost:3000/
+
+Productos:
+GET /api/products - Ver todos los productos.
+GET /api/products/:pid - Ver un producto específico.
+POST /api/products - Agregar un producto.
+PUT /api/products/:pid - Actualizar un producto.
+DELETE /api/products/:pid - Eliminar un producto.
+GET /api/products/new - Formulario para agregar un producto.
+
+Carritos:
+GET /api/carts - Ver todos los carritos.
+POST /api/carts - Crear un carrito vacío.
+POST /api/carts/:cid/products/:pid - Agregar un producto al carrito.
+PUT /api/carts/:cid/products/:pid - Actualizar la cantidad de un producto en el carrito.
+DELETE /api/carts/:cid/products/:pid - Eliminar un producto del carrito.
+DELETE /api/carts/:cid - Eliminar todos los productos del carrito.
